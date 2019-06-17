@@ -1,0 +1,25 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">14sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="half_layout_margin">4dp</dimen>
+    <dimen name="standard_layout_margin">8dp</dimen>
+    <dimen name="double_layout_margin">16dp</dimen>
+
+    <dimen name="article_list_item_height">150dp</dimen>
+
+    <dimen name="collapsed_toolbar_height">280dp</dimen>
+
+    <dimen name="body_text_layout_margin">0dp</dimen>
+
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_margin_bottom">24dp</dimen>
+
+
+    <dimen name="expandedTitleMarginBottom">32dp</dimen>
+
+</resources>

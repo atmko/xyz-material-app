@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/half_layout_margin"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@android:color/white"
+    android:foreground="?selectableItemBackground"
+    android:elevation="@dimen/cardview_default_elevation">
+
+    <!--suppress AndroidLintContentDescription -->
+    <ImageView
+        style="@style/photo_style"
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/article_list_item_height"/>
+
+    <TextView
+        android:id="@+id/article_title"
+        style="@style/title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/double_layout_margin"
+        android:paddingTop="@dimen/double_layout_margin"
+        android:paddingRight="@dimen/double_layout_margin"
+        android:paddingBottom="@dimen/half_layout_margin"
+        tools:text="title" />
+
+    <TextView
+        android:id="@+id/article_subtitle"
+        style="@style/author_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/double_layout_margin"
+        android:paddingRight="@dimen/double_layout_margin"
+        android:paddingBottom="@dimen/double_layout_margin"
+        tools:text="subtitle" />
+
+</LinearLayout>
