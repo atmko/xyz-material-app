@@ -107,16 +107,11 @@ public class ArticleListFragment extends Fragment implements ListAdapter.OnListI
         request.getAsString(new StringRequestListener() {
             @Override
             public void onResponse(String returnedJSONString) {
-                try {
                     //parse and populate retrieved data
                     mArticleDataList = ArticleDataParser.parseData(returnedJSONString,
                             mContext);
 
                     mListAdapter.addAdapterData(mArticleDataList);
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
             }
 
             @Override
